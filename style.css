@@ -1,0 +1,248 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar{
+display: flex;
+}
+
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img{
+    width: 33%;
+    border: 3px solid white;
+    border-radius: 50px;
+}
+
+.nav-list{
+    background-color: black;
+width: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.nav-list li{
+list-style: none;
+padding: 26px 30px;
+}
+
+
+.nav-list li a {
+    text-decoration: none;
+    color: white;
+    
+    }
+    .nav-list li a:hover {
+        text-decoration: none;
+        color: hsla(0, 80%, 52%, 0.767);
+        
+        }
+
+.rightNav{
+    background-color: purple;
+    width: 50%;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.background{
+    background: rgba(0, 0,0,0.7) url('bg.jpg');
+}
+
+
+#navvedio{
+
+}
+
+.cont{
+    display: flex;
+    padding: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.cont h1{
+    position: relative;
+    left: 12%;
+    display: flex;
+flex-wrap: wrap;
+}
+    
+.cont h2{
+    position: relative;
+    left: 33%;
+    display: flex;
+flex-wrap: wrap;
+}
+
+   
+
+.cont p{
+    position: relative;
+    width: 29%;
+    left: 29%;
+    padding-top: 4rem;
+    display: flex;
+flex-wrap: wrap;
+}
+    
+
+
+
+.contimg{
+ display: flex;
+ flex-direction: row;
+ 
+}
+
+.contimg1{
+    text-align: center;
+    padding: 1rem;
+    bottom: 1rem;
+border: 2px solid lightblue;
+border-radius: 19%;
+}
+.contimg2{
+    text-align: center;
+    padding: 1rem;
+    bottom: 1rem;
+    border: 2px solid lightblue;
+    border-radius: 19%;
+}
+.contimg3{
+    text-align: center;
+    padding: 1rem;
+    bottom: 1rem;
+    border: 2px solid lightblue;
+    border-radius: 19%;
+}
+.contimg4{
+    text-align: center;
+    padding: 1rem;
+    bottom: 1rem;
+    border: 2px solid lightblue;
+    border-radius: 19%;
+}
+
+.feature{
+    display: flex;
+}
+.featuremain{
+    position: relative;
+    top: 3rem;
+
+    padding-top: 9rem;
+    padding-right: 5rem;
+    padding-left: 5rem;
+}
+#featuremain1{
+    padding-top: 9rem;
+    padding-left: 6rem
+}
+#featuremain2{
+    padding-top: 3rem;
+    padding-left: 6rem
+}
+#featuremain3{
+    padding-top: 3rem;
+    padding-left: 6rem
+}
+
+
+.ourteamh{
+    padding-top: 9rem;
+    text-align: center;
+}
+
+.ourteam{
+    padding-top: 3rem;
+    display: flex;
+    /* flex-wrap: wrap; */
+    text-align: center;
+    padding-left: 14rem;
+}
+.ourteam1{
+    padding-left: 8rem;
+}
+
+
+.contact{
+    display: flex;
+    width: 59%;
+    padding-top: 10rem;
+    padding-left: 14rem;
+}
+
+#signup h2{
+    padding-bottom: 0.5rem;
+    padding-top: 1rem;
+}
+#signup h3{
+    padding-bottom: 0.5rem;
+    padding-top: 1rem;
+}
+
+#signup p{
+   
+    width: 100%;
+}
+
+#signup{
+    background-color: dimgray;
+    border: 2px solid black;
+    padding: 3rem;
+}
+
+#contactus{
+    padding-right: 10rem;
+}
+
+#footer{
+    display: flex;
+    padding-top: 8rem;
+    padding-left: 27rem;
+}
+
+.footer1{
+    padding-right: 3rem;
+   
+}
+
+
+/* theme */
+.theme{
+    width: 15%;
+    display: flex;
+    padding-left: 32rem;
+    padding-bottom: 1rem;
+}
+.theme1{
+    border: 2px solid red;
+    background-color: rgb(26, 12, 12);
+   
+}
+.theme2{
+    border: 2px solid red;
+}
+  .theme1 :hover{
+      background-color: rgb(230, 53, 53);
+      color: gainsboro;
+      border-radius: 15px;
+      cursor: pointer;
+  }
+  .theme2:hover{
+      cursor: pointer;
+      background-color: honeydew;
+      color: rgb(26, 12, 12);
+      border-radius: 15px;
+
+  }
